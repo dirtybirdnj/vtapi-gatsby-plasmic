@@ -1,2 +1,0 @@
-(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[272],{2715:function(t,e,n){"use strict";n.r(e),n.d(e,{default:function(){return a}});var r=n(7294),u=n(6330);function a(){return r.createElement(u.Z,{projectId:"fsvVCJNXhN88gnWPeurk82",component:"Contact"})}}}]);
-//# sourceMappingURL=component---cache-plasmic-pages-contact-jsx-2dac132acbd8e3434f90.js.map
