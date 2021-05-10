@@ -1,0 +1,239 @@
+{
+  "platform": "gatsby",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../static",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "fsvVCJNXhN88gnWPeurk82",
+      "projectName": "vtapi.co",
+      "version": "latest",
+      "cssFilePath": "plasmic/vtapi_co/plasmic_vtapi_co.module.css",
+      "components": [
+        {
+          "id": "-yQP5mbA2FlJ",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "fsvVCJNXhN88gnWPeurk82",
+          "renderModuleFilePath": "plasmic/vtapi_co/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/vtapi_co/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "yzN9e7yMUD",
+          "name": "HeaderNav",
+          "type": "managed",
+          "projectId": "fsvVCJNXhN88gnWPeurk82",
+          "renderModuleFilePath": "plasmic/vtapi_co/PlasmicHeaderNav.jsx",
+          "importSpec": {
+            "modulePath": "HeaderNav.jsx"
+          },
+          "cssFilePath": "plasmic/vtapi_co/PlasmicHeaderNav.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "UmzKSsgGvq",
+          "name": "About",
+          "type": "managed",
+          "projectId": "fsvVCJNXhN88gnWPeurk82",
+          "renderModuleFilePath": "plasmic/vtapi_co/PlasmicAbout.jsx",
+          "importSpec": {
+            "modulePath": "../pages/about.jsx"
+          },
+          "cssFilePath": "plasmic/vtapi_co/PlasmicAbout.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "BxuEl8DsYN",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "fsvVCJNXhN88gnWPeurk82",
+          "renderModuleFilePath": "plasmic/vtapi_co/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/vtapi_co/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "hdhAUPx0OJ",
+          "name": "Contact",
+          "type": "managed",
+          "projectId": "fsvVCJNXhN88gnWPeurk82",
+          "renderModuleFilePath": "plasmic/vtapi_co/PlasmicContact.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contact.jsx"
+          },
+          "cssFilePath": "plasmic/vtapi_co/PlasmicContact.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "MvXdLCc8OV",
+          "name": "Services",
+          "type": "managed",
+          "projectId": "fsvVCJNXhN88gnWPeurk82",
+          "renderModuleFilePath": "plasmic/vtapi_co/PlasmicServices.jsx",
+          "importSpec": {
+            "modulePath": "../pages/services.jsx"
+          },
+          "cssFilePath": "plasmic/vtapi_co/PlasmicServices.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "iBGeKHaiOZ",
+          "name": "Values",
+          "type": "managed",
+          "projectId": "fsvVCJNXhN88gnWPeurk82",
+          "renderModuleFilePath": "plasmic/vtapi_co/PlasmicValues.jsx",
+          "importSpec": {
+            "modulePath": "../pages/values.jsx"
+          },
+          "cssFilePath": "plasmic/vtapi_co/PlasmicValues.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "ZfeuDm0ZNOg",
+          "name": "ServiceList",
+          "type": "managed",
+          "projectId": "fsvVCJNXhN88gnWPeurk82",
+          "renderModuleFilePath": "plasmic/vtapi_co/PlasmicServiceList.jsx",
+          "importSpec": {
+            "modulePath": "ServiceList.jsx"
+          },
+          "cssFilePath": "plasmic/vtapi_co/PlasmicServiceList.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "beJefKf2yK",
+          "name": "ContactForm",
+          "type": "managed",
+          "projectId": "fsvVCJNXhN88gnWPeurk82",
+          "renderModuleFilePath": "plasmic/vtapi_co/PlasmicContactForm.jsx",
+          "importSpec": {
+            "modulePath": "ContactForm.jsx"
+          },
+          "cssFilePath": "plasmic/vtapi_co/PlasmicContactForm.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "K_nJDzMst",
+          "name": "HeaderLogoIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__HeaderLogo.jsx"
+        },
+        {
+          "id": "d-3s9faVK",
+          "name": "FooterIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__Footer.jsx"
+        },
+        {
+          "id": "HwMgH-etw",
+          "name": "FooterBigIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__FooterBig.jsx"
+        },
+        {
+          "id": "xcy2eYyth",
+          "name": "ApiHomepageIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__ApiHomepage.jsx"
+        },
+        {
+          "id": "H64gaQo8h",
+          "name": "ApiFancyBanners2SvgIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__ApiFancyBanners2Svg.jsx"
+        },
+        {
+          "id": "0WV9Nxs3k",
+          "name": "TopCapsvgIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__TopCapsvg.jsx"
+        },
+        {
+          "id": "eEVCd6Koo",
+          "name": "PointStarsvgIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__PointStarsvg.jsx"
+        },
+        {
+          "id": "zpJfbKID_",
+          "name": "SharpStarsvgIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__SharpStarsvg.jsx"
+        },
+        {
+          "id": "b6SG-iotH",
+          "name": "DividersvgIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__Dividersvg.jsx"
+        },
+        {
+          "id": "ESKmisL-7",
+          "name": "LeftSwoopsvgIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__LeftSwoopsvg.jsx"
+        },
+        {
+          "id": "-sJBbaSkZ",
+          "name": "RightSwoopsvgIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__RightSwoopsvg.jsx"
+        },
+        {
+          "id": "zisVgd0cQ",
+          "name": "HikingBlack24DpsvgIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__HikingBlack24Dpsvg.jsx"
+        },
+        {
+          "id": "k7onMx6ai",
+          "name": "SettingsSuggestBlack24DpsvgIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__SettingsSuggestBlack24Dpsvg.jsx"
+        }
+      ],
+      "images": [],
+      "projectApiToken": "fVWPNUnSBGa0BnLIybhFv7TSl91293U9tZBplNejTunt3HVng50iVvTseczlGlnT0LylSes6hmX5tH6Ecg"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "_vqgjsu93Q6X",
+        "name": "Screen",
+        "projectId": "fsvVCJNXhN88gnWPeurk82",
+        "contextFilePath": "plasmic/vtapi_co/PlasmicGlobalVariant__Screen.jsx"
+      },
+      {
+        "id": "ggplX1HNiO",
+        "name": "UnnamedGlobalGroupOfVariants",
+        "projectId": "fsvVCJNXhN88gnWPeurk82",
+        "contextFilePath": "plasmic/vtapi_co/PlasmicGlobalVariant__UnnamedGlobalGroupOfVariants.jsx"
+      }
+    ]
+  },
+  "gatsbyConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.145",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.145/dist/plasmic.schema.json"
+}

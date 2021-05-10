@@ -1,0 +1,125 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.box__ij7E3 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+}
+.svg__crbm {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 55px;
+  color: #000000;
+  min-width: 0;
+}
+.box__gwUDu {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  align-self: center;
+  width: 100%;
+  min-width: 0;
+}
+.link__vF5 {
+  font-size: 10px;
+  font-family: "Alata";
+  color: #000000;
+  padding: 10px;
+}
+.link___5Fo4 {
+  position: relative;
+  font-size: 10px;
+  font-family: "Alata";
+  color: #000000;
+  padding: 10px;
+}
+.link__v4LGq {
+  position: relative;
+  font-size: 10px;
+  font-family: "Alata";
+  color: #000000;
+  padding: 10px;
+}
+.link__cehhu {
+  position: relative;
+  font-size: 10px;
+  font-family: "Alata";
+  color: #000000;
+  padding: 10px;
+}
+.link__ksheP {
+  position: relative;
+  font-size: 10px;
+  font-family: "Alata";
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  padding: 10px;
+}
+.box__xyT9B {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: auto;
+}
+.box___7CZrm {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  top: auto;
+  left: auto;
+  align-self: center;
+  height: auto;
+  width: 100%;
+  min-width: 0;
+  margin: 0px 0px 10px;
+}
+.box___7CZrm > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 5px);
+  width: calc(100% + 5px);
+}
+.box___7CZrm > :global(.__wab_flex-container) > *,
+.box___7CZrm > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 5px;
+}
+.svg___8Nnfm {
+  position: relative;
+  object-fit: cover;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+.box__v41Ks {
+  font-family: "Alata";
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 3px;
+  margin-right: 0px;
+  line-height: 1;
+  padding: 0px;
+}
+.svg__ngcvs {
+  position: relative;
+  object-fit: cover;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
