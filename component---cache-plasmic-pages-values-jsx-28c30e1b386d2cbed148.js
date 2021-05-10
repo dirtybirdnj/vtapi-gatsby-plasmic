@@ -1,2 +1,0 @@
-(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[601],{8225:function(e,t,n){"use strict";n.r(t),n.d(t,{default:function(){return a}});var r=n(7294),u=n(5253);function a(){return r.createElement(u.Z,{projectId:"fsvVCJNXhN88gnWPeurk82",component:"Values"})}}}]);
-//# sourceMappingURL=component---cache-plasmic-pages-values-jsx-28c30e1b386d2cbed148.js.map
