@@ -211,7 +211,13 @@
           "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__SettingsSuggestBlack24Dpsvg.jsx"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "id": "gKH8Vu5oS",
+          "name": "Mat-at-vtcc",
+          "filePath": "plasmic/vtapi_co/images/matAtVtcc.jpeg"
+        }
+      ],
       "projectApiToken": "fVWPNUnSBGa0BnLIybhFv7TSl91293U9tZBplNejTunt3HVng50iVvTseczlGlnT0LylSes6hmX5tH6Ecg"
     }
   ],

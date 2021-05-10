@@ -26,11 +26,12 @@
   position: relative;
   font-style: italic;
   font-weight: 100;
-  font-size: 32px;
+  font-size: 64px;
   width: 100%;
   text-align: center;
   padding-top: 18px;
   color: #000000;
+  height: auto;
   min-width: 0;
 }
 .box___9Nv38 {
@@ -42,8 +43,9 @@
   text-align: center;
   padding-top: 18px;
   color: #000000;
-  white-space: pre;
+  white-space: pre-wrap;
   min-width: 0;
+  margin: 0px 30px;
 }
 .svg {
   position: relative;

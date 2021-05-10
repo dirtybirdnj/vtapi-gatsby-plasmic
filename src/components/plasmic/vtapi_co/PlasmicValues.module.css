@@ -97,6 +97,14 @@
   color: #000000;
   padding: 10px;
 }
+.box__u5Hk1 {
+  position: relative;
+  text-align: center;
+  font-family: "Alata";
+  margin-top: 10px;
+  color: #000000;
+  padding: 10px;
+}
 .footer:global(.__wab_instance) {
   position: relative;
   margin-top: 20px;

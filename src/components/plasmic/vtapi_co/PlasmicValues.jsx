@@ -115,9 +115,7 @@ function PlasmicValues__RenderFunc(props) {
                 sty.box___8YjnS
               )}
             >
-              {
-                "4. Make decisions based on facts and reasoning, not emotion or ego"
-              }
+              {"4. Make decisions based on demonstrable facts and reasoning"}
             </div>
 
             <div
@@ -150,6 +148,18 @@ function PlasmicValues__RenderFunc(props) {
               )}
             >
               {"7. Respect and aknowledge what you don't know."}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
+                sty.box__u5Hk1
+              )}
+            >
+              {
+                "8. Help others learn and achieve instead of just solving their problems"
+              }
             </div>
           </div>
 

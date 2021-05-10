@@ -72,7 +72,7 @@ function PlasmicHomepage__RenderFunc(props) {
                 sty.box___9Nv38
               )}
             >
-              {"We provide technology based solutions."}
+              {"We provide advice, information and solutions."}
             </div>
 
             <ApiFancyBanners2SvgIcon
