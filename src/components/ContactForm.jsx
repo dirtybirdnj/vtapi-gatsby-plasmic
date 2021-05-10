@@ -19,7 +19,7 @@ function ContactForm(props) {
   // By default, we are just piping all ContactFormProps here, but feel free
   // to do whatever works for you.
   //return <PlasmicContactForm {...props} />
-  return <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScvkfFexfBDw-omKtuuCGDSE38AlYX7bCGHs2veLtgY8ymu5Q/viewform?embedded=true" width="640" height="1382">Loading…</iframe>
+  return <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScvkfFexfBDw-omKtuuCGDSE38AlYX7bCGHs2veLtgY8ymu5Q/viewform?embedded=true" width="640" height="1382" frameBorder="0">Loading…</iframe>
 }
 
 export default ContactForm
