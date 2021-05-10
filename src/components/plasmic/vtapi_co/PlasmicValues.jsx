@@ -100,11 +100,21 @@ function PlasmicValues__RenderFunc(props) {
               className={classNames(
                 defaultcss.all,
                 defaultcss.__wab_text,
+                sty.box___34V1N
+              )}
+            >
+              {"3. Avoid vendor lock in and use cross platform tools"}
+            </div>
+
+            <div
+              className={classNames(
+                defaultcss.all,
+                defaultcss.__wab_text,
                 sty.box__j7Gwz
               )}
             >
               {
-                "3. Question everything, be willing to deeply understand the problem"
+                "4. Question everything, be willing to deeply understand the problem"
               }
             </div>
 
@@ -115,7 +125,7 @@ function PlasmicValues__RenderFunc(props) {
                 sty.box___8YjnS
               )}
             >
-              {"4. Make decisions based on demonstrable facts and reasoning"}
+              {"5. Make decisions based on demonstrable facts and reasoning"}
             </div>
 
             <div
@@ -125,7 +135,7 @@ function PlasmicValues__RenderFunc(props) {
                 sty.box__syS6N
               )}
             >
-              {"5. Communicate often and with specific purpose"}
+              {"6. Communicate often and with specific purpose"}
             </div>
 
             <div
@@ -136,7 +146,7 @@ function PlasmicValues__RenderFunc(props) {
               )}
             >
               {
-                "6. Prioritize learning and establishing self-sufficiency over stopgap bandaids"
+                "7. Prioritize learning and establishing self-sufficiency over stopgap bandaids"
               }
             </div>
 
@@ -147,7 +157,7 @@ function PlasmicValues__RenderFunc(props) {
                 sty.box___7DjZg
               )}
             >
-              {"7. Respect and aknowledge what you don't know."}
+              {"8. Respect and aknowledge what you don't know."}
             </div>
 
             <div
@@ -158,7 +168,7 @@ function PlasmicValues__RenderFunc(props) {
               )}
             >
               {
-                "8. Help others learn and achieve instead of just solving their problems"
+                "9. Help others learn and achieve instead of just solving their problems"
               }
             </div>
           </div>

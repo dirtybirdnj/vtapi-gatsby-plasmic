@@ -47,13 +47,100 @@
   min-width: 0;
   margin: 0px 30px;
 }
-.svg {
+.svg__tmnv {
   position: relative;
   object-fit: cover;
+  width: 300px;
+  height: 38px;
+  margin-top: 20px;
+  flex-shrink: 0;
+}
+.link {
+  position: relative;
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 199px;
-  color: #000000;
+  justify-content: center;
+  align-items: center;
   min-width: 0;
+}
+.box__xkWeH {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+  padding: 0px 20px;
+}
+.box__l5Hfu {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.box__l5Hfu > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.box__l5Hfu > :global(.__wab_flex-container) > *,
+.box__l5Hfu > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 10px;
+}
+.box__lGxPl {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.svg__nSrUe {
+  position: relative;
+  object-fit: cover;
+  width: 35px;
+  height: 35px;
+  color: #000000;
+  flex-shrink: 0;
+}
+.box___2FatO {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.box__iIEs {
+  font-size: 32px;
+  font-style: italic;
+  color: #000000;
+  text-align: center;
+  height: auto;
+}
+.box__emHyz {
+  position: relative;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  color: #000000;
+}
+.svg__qH1Fc {
+  position: relative;
+  object-fit: cover;
+  width: 300px;
+  height: 38px;
+  color: #000000;
+  margin-top: 10px;
+  flex-shrink: 0;
+}
+.svg__cUaxn {
+  position: relative;
+  object-fit: cover;
+  width: 500px;
+  height: 200px;
+  color: #000000;
   flex-shrink: 0;
 }
 .box__gLoE6 {
@@ -63,6 +150,7 @@
   font-style: italic;
   font-weight: 100;
   color: #000000;
+  margin-bottom: 25px;
   padding: 0px;
 }
 .footer:global(.__wab_instance) {

@@ -15,12 +15,12 @@ import {
   deriveRenderOpts,
 } from "@plasmicapp/react-web"
 import HeaderNav from "../../HeaderNav" // plasmic-import: yzN9e7yMUD/component
+import ProfileWithDetails from "../../ProfileWithDetails" // plasmic-import: jFPPIhVElfu/component
 import Footer from "../../Footer" // plasmic-import: BxuEl8DsYN/component
 import "@plasmicapp/react-web/lib/plasmic.css"
 import * as defaultcss from "../plasmic__default_style.module.css" // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_vtapi_co.module.css" // plasmic-import: fsvVCJNXhN88gnWPeurk82/projectcss
 import * as sty from "./PlasmicAbout.module.css" // plasmic-import: UmzKSsgGvq/css
-import matAtVtccGKh8Vu5OS from "./images/matAtVtcc.jpeg" // plasmic-import: gKH8Vu5oS/picture
 
 export const PlasmicAbout__VariantProps = new Array()
 
@@ -54,74 +54,11 @@ function PlasmicAbout__RenderFunc(props) {
             className={classNames("__wab_instance", sty.headerNav)}
           />
 
-          <div className={classNames(defaultcss.all, sty.box__ro2Of)}>
-            <div className={classNames(defaultcss.all, sty.box__qsJhQ)}>
-              <div className={classNames(defaultcss.all, sty.box__aicJu)}>
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__vuSry
-                  )}
-                >
-                  {"Who: Mat Gilbert"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__srmpE
-                  )}
-                >
-                  {"What: vatpi.co (Vermont API, LLC)"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__ooRPx
-                  )}
-                >
-                  {"Where: Vermont, the greater Burlington area."}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__rr4N
-                  )}
-                >
-                  {"When: Since 2019"}
-                </div>
-
-                <div
-                  className={classNames(
-                    defaultcss.all,
-                    defaultcss.__wab_text,
-                    sty.box__rMh2I
-                  )}
-                >
-                  {
-                    "Why: To advance technical understanding of web technologies and help businesses in Vermont and beyond succeed."
-                  }
-                </div>
-              </div>
-
-              <div className={classNames(defaultcss.all, sty.box__mKjA)}>
-                <img
-                  data-plasmic-name={"img"}
-                  data-plasmic-override={overrides.img}
-                  alt={""}
-                  className={classNames(defaultcss.img, sty.img)}
-                  role={"img"}
-                  src={matAtVtccGKh8Vu5OS}
-                />
-              </div>
-            </div>
-          </div>
+          <ProfileWithDetails
+            data-plasmic-name={"profileWithDetails"}
+            data-plasmic-override={overrides.profileWithDetails}
+            className={classNames("__wab_instance", sty.profileWithDetails)}
+          />
 
           <Footer
             data-plasmic-name={"footer"}
@@ -135,9 +72,9 @@ function PlasmicAbout__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "headerNav", "img", "footer"],
+  root: ["root", "headerNav", "profileWithDetails", "footer"],
   headerNav: ["headerNav"],
-  img: ["img"],
+  profileWithDetails: ["profileWithDetails"],
   footer: ["footer"],
 }
 
@@ -173,7 +110,7 @@ export const PlasmicAbout = Object.assign(
   {
     // Helper components rendering sub-elements
     headerNav: makeNodeComponent("headerNav"),
-    img: makeNodeComponent("img"),
+    profileWithDetails: makeNodeComponent("profileWithDetails"),
     footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicAbout
     internalVariantProps: PlasmicAbout__VariantProps,

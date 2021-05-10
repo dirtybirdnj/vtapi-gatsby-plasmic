@@ -142,6 +142,32 @@
           "cssFilePath": "plasmic/vtapi_co/PlasmicContactForm.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "jFPPIhVElfu",
+          "name": "ProfileWithDetails",
+          "type": "managed",
+          "projectId": "fsvVCJNXhN88gnWPeurk82",
+          "renderModuleFilePath": "plasmic/vtapi_co/PlasmicProfileWithDetails.jsx",
+          "importSpec": {
+            "modulePath": "ProfileWithDetails.jsx"
+          },
+          "cssFilePath": "plasmic/vtapi_co/PlasmicProfileWithDetails.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Yqol-rCxsy",
+          "name": "WhatsAnApi",
+          "type": "managed",
+          "projectId": "fsvVCJNXhN88gnWPeurk82",
+          "renderModuleFilePath": "plasmic/vtapi_co/PlasmicWhatsAnApi.jsx",
+          "importSpec": {
+            "modulePath": "../pages/whats-an-api.jsx"
+          },
+          "cssFilePath": "plasmic/vtapi_co/PlasmicWhatsAnApi.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -209,6 +235,21 @@
           "id": "k7onMx6ai",
           "name": "SettingsSuggestBlack24DpsvgIcon",
           "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__SettingsSuggestBlack24Dpsvg.jsx"
+        },
+        {
+          "id": "-hAnRVCEc",
+          "name": "ApiFastfoodsvgIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__ApiFastfoodsvg.jsx"
+        },
+        {
+          "id": "-mQ06erg0",
+          "name": "InfoBlack24DpsvgIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__InfoBlack24Dpsvg.jsx"
+        },
+        {
+          "id": "egmHDbPom",
+          "name": "HelpOutlineBlack24DpsvgIcon",
+          "moduleFilePath": "plasmic/vtapi_co/icons/PlasmicIcon__HelpOutlineBlack24Dpsvg.jsx"
         }
       ],
       "images": [

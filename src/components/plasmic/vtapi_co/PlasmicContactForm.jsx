@@ -32,21 +32,12 @@ function PlasmicContactForm__RenderFunc(props) {
       data-plasmic-root={true}
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
-    >
-      <div
-        data-plasmic-name={"box"}
-        data-plasmic-override={overrides.box}
-        className={classNames(defaultcss.all, defaultcss.__wab_text, sty.box)}
-      >
-        {"Contact Form"}
-      </div>
-    </div>
+    />
   )
 }
 
 const PlasmicDescendants = {
-  root: ["root", "box"],
-  box: ["box"],
+  root: ["root"],
 }
 
 function makeNodeComponent(nodeName) {
@@ -80,7 +71,6 @@ export const PlasmicContactForm = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    box: makeNodeComponent("box"),
     // Metadata about props expected for PlasmicContactForm
     internalVariantProps: PlasmicContactForm__VariantProps,
     internalArgProps: PlasmicContactForm__ArgProps,

@@ -9,6 +9,8 @@
 // Plasmic Project: fsvVCJNXhN88gnWPeurk82
 // Component: -yQP5mbA2FlJ
 import * as React from "react"
+import { Link } from "gatsby"
+import * as p from "@plasmicapp/react-web"
 import {
   classNames,
   createPlasmicElementProxy,
@@ -20,6 +22,8 @@ import "@plasmicapp/react-web/lib/plasmic.css"
 import * as defaultcss from "../plasmic__default_style.module.css" // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_vtapi_co.module.css" // plasmic-import: fsvVCJNXhN88gnWPeurk82/projectcss
 import * as sty from "./PlasmicHomepage.module.css" // plasmic-import: -yQP5mbA2FlJ/css
+import DividersvgIcon from "./icons/PlasmicIcon__Dividersvg" // plasmic-import: b6SG-iotH/icon
+import HelpOutlineBlack24DpsvgIcon from "./icons/PlasmicIcon__HelpOutlineBlack24Dpsvg" // plasmic-import: egmHDbPom/icon
 import ApiFancyBanners2SvgIcon from "./icons/PlasmicIcon__ApiFancyBanners2Svg" // plasmic-import: H64gaQo8h/icon
 
 export const PlasmicHomepage__VariantProps = new Array()
@@ -72,15 +76,69 @@ function PlasmicHomepage__RenderFunc(props) {
                 sty.box___9Nv38
               )}
             >
-              {"We provide advice, information and solutions."}
+              {"We provide advice, information and solutions"}
             </div>
 
-            <ApiFancyBanners2SvgIcon
-              data-plasmic-name={"svg"}
-              data-plasmic-override={overrides.svg}
-              className={classNames(defaultcss.all, sty.svg)}
+            <DividersvgIcon
+              className={classNames(defaultcss.all, sty.svg__tmnv)}
               role={"img"}
             />
+
+            <p.PlasmicLink
+              data-plasmic-name={"link"}
+              data-plasmic-override={overrides.link}
+              className={classNames(defaultcss.all, sty.link)}
+              component={Link}
+              href={"/whats-an-api"}
+              platform={"gatsby"}
+            >
+              <div className={classNames(defaultcss.all, sty.box__xkWeH)}>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(defaultcss.all, sty.box__l5Hfu)}
+                >
+                  <div className={classNames(defaultcss.all, sty.box__lGxPl)}>
+                    <HelpOutlineBlack24DpsvgIcon
+                      className={classNames(defaultcss.all, sty.svg__nSrUe)}
+                      role={"img"}
+                    />
+                  </div>
+
+                  <div className={classNames(defaultcss.all, sty.box___2FatO)}>
+                    <div
+                      className={classNames(
+                        defaultcss.all,
+                        defaultcss.__wab_text,
+                        sty.box__iIEs
+                      )}
+                    >
+                      {"What is an API?"}
+                    </div>
+                  </div>
+                </p.Stack>
+
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box__emHyz
+                  )}
+                >
+                  {"Click here to learn more"}
+                </div>
+
+                <DividersvgIcon
+                  className={classNames(defaultcss.all, sty.svg__qH1Fc)}
+                  role={"img"}
+                />
+
+                <ApiFancyBanners2SvgIcon
+                  className={classNames(defaultcss.all, sty.svg__cUaxn)}
+                  role={"img"}
+                />
+              </div>
+            </p.PlasmicLink>
 
             <div
               className={classNames(
@@ -90,7 +148,7 @@ function PlasmicHomepage__RenderFunc(props) {
               )}
             >
               {
-                "Providing Vermont with creative solutions and answers to technical challenges since 2019"
+                "Providing Vermont with creative solutions to technical challenges since 2019"
               }
             </div>
           </div>
@@ -107,9 +165,9 @@ function PlasmicHomepage__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "headerNav", "svg", "footer"],
+  root: ["root", "headerNav", "link", "footer"],
   headerNav: ["headerNav"],
-  svg: ["svg"],
+  link: ["link"],
   footer: ["footer"],
 }
 
@@ -145,7 +203,7 @@ export const PlasmicHomepage = Object.assign(
   {
     // Helper components rendering sub-elements
     headerNav: makeNodeComponent("headerNav"),
-    svg: makeNodeComponent("svg"),
+    link: makeNodeComponent("link"),
     footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,

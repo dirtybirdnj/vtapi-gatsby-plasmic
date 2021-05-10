@@ -54,16 +54,14 @@ function PlasmicContact__RenderFunc(props) {
             className={classNames("__wab_instance", sty.headerNav)}
           />
 
-          <div
-            data-plasmic-name={"box"}
-            data-plasmic-override={overrides.box}
-            className={classNames(defaultcss.all, sty.box)}
-          >
-            <ContactForm
-              data-plasmic-name={"contactForm"}
-              data-plasmic-override={overrides.contactForm}
-              className={classNames("__wab_instance", sty.contactForm)}
-            />
+          <div className={classNames(defaultcss.all, sty.box__eENT)}>
+            <div className={classNames(defaultcss.all, sty.box__iWrCo)}>
+              <ContactForm
+                data-plasmic-name={"contactForm"}
+                data-plasmic-override={overrides.contactForm}
+                className={classNames("__wab_instance", sty.contactForm)}
+              />
+            </div>
           </div>
 
           <Footer
@@ -78,9 +76,8 @@ function PlasmicContact__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "headerNav", "box", "contactForm", "footer"],
+  root: ["root", "headerNav", "contactForm", "footer"],
   headerNav: ["headerNav"],
-  box: ["box", "contactForm"],
   contactForm: ["contactForm"],
   footer: ["footer"],
 }
@@ -117,7 +114,6 @@ export const PlasmicContact = Object.assign(
   {
     // Helper components rendering sub-elements
     headerNav: makeNodeComponent("headerNav"),
-    box: makeNodeComponent("box"),
     contactForm: makeNodeComponent("contactForm"),
     footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicContact
