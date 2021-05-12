@@ -12,10 +12,13 @@ import * as React from "react"
 import { Link } from "gatsby"
 import * as p from "@plasmicapp/react-web"
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
+  ensureGlobalVariants,
 } from "@plasmicapp/react-web"
+import { useScreenVariants } from "./PlasmicGlobalVariant__Screen" // plasmic-import: _vqgjsu93Q6X/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css"
 import * as defaultcss from "../plasmic__default_style.module.css" // plasmic-import: global/defaultcss
 import * as projectcss from "./plasmic_vtapi_co.module.css" // plasmic-import: fsvVCJNXhN88gnWPeurk82/projectcss
@@ -29,6 +32,10 @@ export const PlasmicProfileWithDetails__ArgProps = new Array()
 
 function PlasmicProfileWithDetails__RenderFunc(props) {
   const { variants, args, overrides, forNode, dataFetches } = props
+  const globalVariants = ensureGlobalVariants({
+    screen: useScreenVariants(),
+  })
+
   return (
     <div
       data-plasmic-name={"root"}
@@ -37,182 +44,200 @@ function PlasmicProfileWithDetails__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(defaultcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(defaultcss.all, sty.box__vYxTe)}>
-        <div className={classNames(defaultcss.all, sty.box__udN6S)}>
-          <div className={classNames(defaultcss.all, sty.box___0Sud2)}>
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box___6O0F
-              )}
-            >
-              {"Who: "}
-            </div>
+      {(
+        hasVariant(globalVariants, "screen", "mobile")
+          ? true
+          : hasVariant(globalVariants, "screen", "desktop")
+          ? true
+          : false
+      ) ? (
+        <div className={classNames(defaultcss.all, sty.box__w74Mz)}>
+          {(hasVariant(globalVariants, "screen", "mobile") ? true : false) ? (
+            <img
+              alt={""}
+              className={classNames(defaultcss.img, sty.img___4APf)}
+              role={"img"}
+              src={matAtVtccGKh8Vu5OS}
+            />
+          ) : null}
 
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box__vLgqW
-              )}
-            >
-              {"Mat Gilbert"}
-            </div>
-          </div>
+          <div className={classNames(defaultcss.all, sty.box__vYxTe)}>
+            <div className={classNames(defaultcss.all, sty.box__udN6S)}>
+              <div className={classNames(defaultcss.all, sty.box___0Sud2)}>
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box___6O0F
+                  )}
+                >
+                  {"Who: "}
+                </div>
 
-          <DividersvgIcon
-            className={classNames(defaultcss.all, sty.svg__aq2W)}
-            role={"img"}
-          />
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box__vLgqW
+                  )}
+                >
+                  {"Mat Gilbert"}
+                </div>
+              </div>
 
-          <div className={classNames(defaultcss.all, sty.box__r3I63)}>
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box__dsEFs
-              )}
-            >
-              {"What:"}
-            </div>
+              <DividersvgIcon
+                className={classNames(defaultcss.all, sty.svg__aq2W)}
+                role={"img"}
+              />
 
-            <div className={classNames(defaultcss.all, sty.box__za4Vc)}>
-              <div
-                className={classNames(
-                  defaultcss.all,
-                  defaultcss.__wab_text,
-                  sty.box__mu4H
-                )}
-              >
-                {"vtapi.co "}
+              <div className={classNames(defaultcss.all, sty.box__r3I63)}>
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box__dsEFs
+                  )}
+                >
+                  {"What:"}
+                </div>
+
+                <div className={classNames(defaultcss.all, sty.box__za4Vc)}>
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box__mu4H
+                    )}
+                  >
+                    {"vtapi.co "}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      defaultcss.all,
+                      defaultcss.__wab_text,
+                      sty.box__kPj9S
+                    )}
+                  >
+                    {"aka Vermont API, LLC"}
+                  </div>
+                </div>
+              </div>
+
+              <DividersvgIcon
+                className={classNames(defaultcss.all, sty.svg__mhjjf)}
+                role={"img"}
+              />
+
+              <div className={classNames(defaultcss.all, sty.box__vaZhH)}>
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box___7Uewz
+                  )}
+                >
+                  {"When:"}
+                </div>
+
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box__fmTbz
+                  )}
+                >
+                  {"Since 2019"}
+                </div>
+              </div>
+
+              <div className={classNames(defaultcss.all, sty.box__eKxqa)}>
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box__wzE4
+                  )}
+                >
+                  {"Where:"}
+                </div>
+
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box__daA1
+                  )}
+                >
+                  {"Vermont, the greater Burlington area."}
+                </div>
+              </div>
+
+              <DividersvgIcon
+                className={classNames(defaultcss.all, sty.svg__tkQv0)}
+                role={"img"}
+              />
+
+              <div className={classNames(defaultcss.all, sty.box__bGio)}>
+                <div
+                  className={classNames(
+                    defaultcss.all,
+                    defaultcss.__wab_text,
+                    sty.box__t4Ihu
+                  )}
+                >
+                  {"Why ? "}
+                </div>
               </div>
 
               <div
                 className={classNames(
                   defaultcss.all,
                   defaultcss.__wab_text,
-                  sty.box__kPj9S
+                  sty.box__vHnwy
                 )}
               >
-                {"aka Vermont API, LLC"}
+                {
+                  "To improve understanding of web technologies and help organizations improve efficiency."
+                }
               </div>
+
+              <p.PlasmicLink
+                data-plasmic-name={"link"}
+                data-plasmic-override={overrides.link}
+                className={classNames(
+                  defaultcss.all,
+                  defaultcss.__wab_text,
+                  sty.link
+                )}
+                component={Link}
+                href={"/values"}
+                platform={"gatsby"}
+              >
+                {"Learn more about our Values"}
+              </p.PlasmicLink>
             </div>
+
+            {(hasVariant(globalVariants, "screen", "mobile") ? false : true) ? (
+              <div className={classNames(defaultcss.all, sty.box___6BFx)}>
+                <img
+                  alt={""}
+                  className={classNames(defaultcss.img, sty.img__jo6Ir)}
+                  role={"img"}
+                  src={matAtVtccGKh8Vu5OS}
+                />
+              </div>
+            ) : null}
           </div>
-
-          <DividersvgIcon
-            className={classNames(defaultcss.all, sty.svg__mhjjf)}
-            role={"img"}
-          />
-
-          <div className={classNames(defaultcss.all, sty.box__vaZhH)}>
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box___7Uewz
-              )}
-            >
-              {"When:"}
-            </div>
-
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box__fmTbz
-              )}
-            >
-              {"Since 2019"}
-            </div>
-          </div>
-
-          <div className={classNames(defaultcss.all, sty.box__eKxqa)}>
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box__wzE4
-              )}
-            >
-              {"Where:"}
-            </div>
-
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box__daA1
-              )}
-            >
-              {"Vermont, the greater Burlington area."}
-            </div>
-          </div>
-
-          <DividersvgIcon
-            className={classNames(defaultcss.all, sty.svg__tkQv0)}
-            role={"img"}
-          />
-
-          <div className={classNames(defaultcss.all, sty.box__bGio)}>
-            <div
-              className={classNames(
-                defaultcss.all,
-                defaultcss.__wab_text,
-                sty.box__t4Ihu
-              )}
-            >
-              {"Why ? "}
-            </div>
-          </div>
-
-          <div
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.box__vHnwy
-            )}
-          >
-            {
-              "To improve understanding of web technologies and help organizations improve efficiency."
-            }
-          </div>
-
-          <p.PlasmicLink
-            data-plasmic-name={"link"}
-            data-plasmic-override={overrides.link}
-            className={classNames(
-              defaultcss.all,
-              defaultcss.__wab_text,
-              sty.link
-            )}
-            component={Link}
-            href={"/values"}
-            platform={"gatsby"}
-          >
-            {"Learn more about our Values"}
-          </p.PlasmicLink>
         </div>
-
-        <div className={classNames(defaultcss.all, sty.box___6BFx)}>
-          <img
-            data-plasmic-name={"img"}
-            data-plasmic-override={overrides.img}
-            alt={""}
-            className={classNames(defaultcss.img, sty.img)}
-            role={"img"}
-            src={matAtVtccGKh8Vu5OS}
-          />
-        </div>
-      </div>
+      ) : null}
     </div>
   )
 }
 
 const PlasmicDescendants = {
-  root: ["root", "link", "img"],
+  root: ["root", "link"],
   link: ["link"],
-  img: ["img"],
 }
 
 function makeNodeComponent(nodeName) {
@@ -247,7 +272,6 @@ export const PlasmicProfileWithDetails = Object.assign(
   {
     // Helper components rendering sub-elements
     link: makeNodeComponent("link"),
-    img: makeNodeComponent("img"),
     // Metadata about props expected for PlasmicProfileWithDetails
     internalVariantProps: PlasmicProfileWithDetails__VariantProps,
     internalArgProps: PlasmicProfileWithDetails__ArgProps,
