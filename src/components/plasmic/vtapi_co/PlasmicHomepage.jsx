@@ -24,7 +24,7 @@ import * as projectcss from "./plasmic_vtapi_co.module.css" // plasmic-import: f
 import * as sty from "./PlasmicHomepage.module.css" // plasmic-import: -yQP5mbA2FlJ/css
 import DividersvgIcon from "./icons/PlasmicIcon__Dividersvg" // plasmic-import: b6SG-iotH/icon
 import HelpOutlineBlack24DpsvgIcon from "./icons/PlasmicIcon__HelpOutlineBlack24Dpsvg" // plasmic-import: egmHDbPom/icon
-import ApiFancyBanners2SvgIcon from "./icons/PlasmicIcon__ApiFancyBanners2Svg" // plasmic-import: H64gaQo8h/icon
+import ScrollsApisvgIcon from "./icons/PlasmicIcon__ScrollsApisvg" // plasmic-import: u6tcw9lKk_/icon
 
 export const PlasmicHomepage__VariantProps = new Array()
 
@@ -133,7 +133,7 @@ function PlasmicHomepage__RenderFunc(props) {
                   role={"img"}
                 />
 
-                <ApiFancyBanners2SvgIcon
+                <ScrollsApisvgIcon
                   className={classNames(defaultcss.all, sty.svg__cUaxn)}
                   role={"img"}
                 />

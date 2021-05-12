@@ -63,19 +63,6 @@ function PlasmicFooter__RenderFunc(props) {
           className={classNames(
             defaultcss.all,
             defaultcss.__wab_text,
-            sty.link___5Fo4
-          )}
-          component={Link}
-          href={"/about"}
-          platform={"gatsby"}
-        >
-          {"About"}
-        </p.PlasmicLink>
-
-        <p.PlasmicLink
-          className={classNames(
-            defaultcss.all,
-            defaultcss.__wab_text,
             sty.link__v4LGq
           )}
           component={Link}
@@ -96,6 +83,19 @@ function PlasmicFooter__RenderFunc(props) {
           platform={"gatsby"}
         >
           {"Values"}
+        </p.PlasmicLink>
+
+        <p.PlasmicLink
+          className={classNames(
+            defaultcss.all,
+            defaultcss.__wab_text,
+            sty.link___5Fo4
+          )}
+          component={Link}
+          href={"/about"}
+          platform={"gatsby"}
+        >
+          {"About"}
         </p.PlasmicLink>
 
         <p.PlasmicLink

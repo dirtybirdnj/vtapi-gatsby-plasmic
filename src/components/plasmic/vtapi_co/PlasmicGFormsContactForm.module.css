@@ -1,0 +1,109 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.box__huPBi {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.box__mCvn {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  align-self: center;
+  margin-bottom: 20px;
+  min-width: 0;
+}
+.box__rxkWg {
+  position: relative;
+  font-size: 32px;
+}
+.textbox___6Hf5I {
+  position: relative;
+  width: 100%;
+  margin-left: 10px;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.box__boKVt {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  align-self: center;
+  margin-bottom: 20px;
+  min-width: 0;
+}
+.box__yGwDl {
+  position: relative;
+  font-size: 32px;
+}
+.textbox__zb7Uc {
+  position: relative;
+  width: 100%;
+  margin-left: 10px;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.box__velqg {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+.box__qts7Z {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+.box__u4D9O {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  height: auto;
+  font-size: 24px;
+}
+.textarea {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100px;
+  min-width: 0;
+}
+.button {
+  position: relative;
+  margin-top: 10px;
+  width: auto;
+  align-self: center;
+  margin-bottom: 15px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: 2px solid #3d3d3d;
+}
